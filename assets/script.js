@@ -39,7 +39,7 @@ const dotsContainer = document.querySelector('.dots');
 console.log(tagLine)
 console.log(dotsContainer) */
 
-// for keep trac of the current index of the display image   
+// for keep track of the current index of the display image   
 
 let currentSlideIndex = 0;
 
@@ -60,12 +60,13 @@ function updateSlide() {
   });
 }
 
-
 // function to be called upon when the click event on the arrow prev happens
 function goToPreviousSlide() {
 	// console.log('I was clicked, I am previous!'); 
   currentSlideIndex = (currentSlideIndex - 1 + slides.length) % slides.length;
 //   console.log(currentSlideIndex);
+console.log(currentSlideIndex);
+
   updateSlide();
 }
 

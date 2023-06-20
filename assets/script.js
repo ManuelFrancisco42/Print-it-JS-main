@@ -33,8 +33,8 @@ const tagLine = document.querySelector('#banner p');
 const dotsContainer = document.querySelector('.dots');
 
 
- // verification if there is a contact 
- 
+ // verification if there is a contact with DoM
+
 /* console.log(bannerImg)
 console.log(tagLine)
 console.log(dotsContainer) */

@@ -34,20 +34,13 @@ const dotsContainer = document.querySelector('.dots');
 
 
  // verification if there is a contact 
-<<<<<<< HEAD
-
-=======
  
->>>>>>> 0ea7e7cb32c7a24e307a1e510f4f709d84eb4b70
 /* console.log(bannerImg)
 console.log(tagLine)
 console.log(dotsContainer) */
 
-<<<<<<< HEAD
 // for keep trac of the current index of the display image   
-=======
 
->>>>>>> 0ea7e7cb32c7a24e307a1e510f4f709d84eb4b70
 let currentSlideIndex = 0;
 
 
